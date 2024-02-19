@@ -43,6 +43,6 @@ stow .
 ```
 
 If you get any error you can check the stow documentation.
-The `$HOME` directory should not contain the file in this directory then stow can create all the symlink to the new files.
+The `$HOME` directory should not contain the file in this directory then stow can create all symlinks to the new files.
 
 Then you can notice that you have all the symlinks to your new dotfiles.
