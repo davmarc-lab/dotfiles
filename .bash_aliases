@@ -3,11 +3,14 @@ alias ll="ls -la"
 alias la="ls -l"
 alias l="ls"
 
-# alias for nvim
-# alias vim=nvim
-
 # alias for generating my custom clagnd formatter
 alias formatter-clangd="echo -e 'BasedOnStyle: LLVM\nIndentWidth: 4\nTabWidth: 4\nColumnLimit: 150\n' > .clang-format"
+
+# go to computer-vision
+alias va="cd ~/Documents/VisioneArtificiale/"
+
+# go to computer-vision and activate conda
+alias vac="va ; conda activate va"
 
 # spotify-adblock
 alias adspotify="LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify"
@@ -58,5 +61,3 @@ alias full-update="sudo pacman -Syu ; yay -Syu ; echo \"--- Full system update c
 # alias for generating a formatting config for clangd, clangd mason formatter required
 alias clangd-format="~/.local/share/nvim/mason/bin/clang-format"
 
-# funny
-# alias porcodio="echo BRAVO"

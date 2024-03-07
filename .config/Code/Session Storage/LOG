@@ -1,2 +1,3 @@
-2024/03/07-23:17:29.429 1c23 Creating DB /home/mil2442/.config/Code/Session Storage since it was missing.
-2024/03/07-23:17:29.447 1c23 Reusing MANIFEST /home/mil2442/.config/Code/Session Storage/MANIFEST-000001
+2024/03/07-23:55:44.564 3a3d Reusing MANIFEST /home/mil2442/.config/Code/Session Storage/MANIFEST-000001
+2024/03/07-23:55:44.565 3a3d Recovering log #3
+2024/03/07-23:55:44.565 3a3d Reusing old log /home/mil2442/.config/Code/Session Storage/000003.log 
