@@ -19,9 +19,39 @@ require("lazy").setup({
         { import = "mil.plugins.core" },
         { import = "mil.plugins.lsp" }, },
     {
+        ui = {
+            border = "rounded",
+            title = "Package Manager",
+            title_pos = "center",
+            icons = {
+                cmd = " ",
+                config = "",
+                event = "",
+                ft = " ",
+                init = " ",
+                import = " ",
+                keys = " ",
+                lazy = "󰒲 ",
+                loaded = "●",
+                not_loaded = "○",
+                plugin = " ",
+                runtime = " ",
+                require = "󰢱 ",
+                source = " ",
+                start = "",
+                task = "✔ ",
+                list = {
+                    "●",
+                    "➜",
+                    "★",
+                    "‒",
+                },
+            }
+        },
         checker = {
             enable = true,
             notify = false,
+            frequency = 3600 * 4,
         },
         change_detection = {
             notify = false,
