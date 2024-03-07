@@ -1,9 +1,9 @@
--- Defines the leader key
+-- Define leader key
 vim.g.mapleader = " "
 
--- Load nvim configs
-require("core.configs")
+-- Execute nvim config before loading
+require("mil.configs.configs")
+require("mil.configs.keymaps")
 
--- Load lazy plugin manager
-require("core.lazy")
-
+-- Start Lazy plugin manager
+require("mil.lazy")
