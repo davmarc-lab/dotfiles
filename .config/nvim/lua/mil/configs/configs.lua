@@ -1,9 +1,9 @@
 -- All config for nvim editor feature and appereance
 
 -- don't open netrw
--- vim.g.loaded_netrw = 1
--- vim.g.loaded_netrwPlugin = 1
--- vim.g.nvim_tree_auto_close = 1
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+vim.g.nvim_tree_auto_close = 1
 
 vim.opt.backspace = "2"
 vim.opt.showcmd = true

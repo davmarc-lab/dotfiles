@@ -101,28 +101,35 @@ return {
                 vim.keymap.set("n", "<leader>f", vim.lsp.buf.format, opts)
             end)
 
-            require('mason-lspconfig').setup({
-                ensure_installed = {},
-                handlers = {
-                    lsp_zero.default_setup,
-                    lua_ls = function()
-                        require('lspconfig').lua_ls.setup({
-                            settings = {
-                                Lua = {
-                                    diagnostics = {
-                                        globals = { "vim" },
-                                    },
-                                    workspace = {
-                                        library = {
-                                            [vim.fn.expand("$VIMRUNTIME/lua")] = true,
-                                            [vim.fn.stdpath("config") .. "/lua"] = true,
-                                        },
+            local handlers = {
+                lsp_zero.default_setup,
+
+                function(server_name)
+                    require("lspconfig")[server_name].setup({})
+                end,
+
+                lua_ls = function()
+                    require('lspconfig').lua_ls.setup({
+                        settings = {
+                            Lua = {
+                                diagnostics = {
+                                    globals = { "vim" },
+                                },
+                                workspace = {
+                                    library = {
+                                        [vim.fn.expand("$VIMRUNTIME/lua")] = true,
+                                        [vim.fn.stdpath("config") .. "/lua"] = true,
                                     },
                                 },
                             },
-                        })
-                    end,
-                }
+                        },
+                    })
+                end,
+            }
+
+            require('mason-lspconfig').setup({
+                ensure_installed = {},
+                handlers = handlers,
             })
         end
     }
