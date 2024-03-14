@@ -238,8 +238,8 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh --forest
 ## Useful controls
 
 # brightness controls !!!NEVER TOUCH THIS AGAIN!!!
-bindsym XF86MonBrightnessUp exec --no-startup-id sudo brightnessctl set +5%
-bindsym XF86MonBrightnessDown exec --no-startup-id sudo brightnessctl set 5%-
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 
 # media player controls
 bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
