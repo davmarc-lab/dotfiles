@@ -2,3 +2,5 @@
 .gitignore
 README.md
 nvim-script/
+.vim/undodir
+.vim/.netrwhist
