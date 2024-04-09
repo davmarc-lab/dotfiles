@@ -5,7 +5,7 @@
 	"global": {
 		"theme": "system",
 		"window": {
-			"width": 950,
+			"width": 630,
 			"height": 1038,
 			"isMaximized": false,
 			"displayBounds": {
@@ -14,7 +14,7 @@
 				"width": 1920,
 				"height": 1080
 			},
-			"x": 964,
+			"x": 1284,
 			"y": 36,
 			"zoomFactor": 1
 		},

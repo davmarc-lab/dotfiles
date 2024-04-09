@@ -26,6 +26,19 @@ pacman -S stow
 pacman -S neovim
 ```
 
+For neovim you need some other packages like:
+#### Arch
+```bash
+pacman -S tree-sitter nodejs xclip npm python python3-venv ripgrep fd ;
+yay -S fswatch
+```
+
+#### Ubuntu
+```bash
+apt install nodejs npm xclip python3 python3-venv ripgrep fswatch
+npm install tree-sitter-cli
+```
+
 This files contains a neovim configuration by default. If you don't use neovim or you don't want this configuration you can delete the `.config/nvim/` directory.
 
 ## Installation

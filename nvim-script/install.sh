@@ -4,10 +4,10 @@
 
 if [ -d $HOME"/.config/nvim/" ] ; then
     # create backup copy of your configuration
-    # mv $HOME/.config/nvim $HOME/.config/nvim-BCK
-    echo "YES"
+    mv $HOME/.config/nvim $HOME/.config/nvim-BCK
+    # echo "YES"
 fi
 
 # copy nvim configuration files in your .config directory
-mkdir $HOME/.config/nvim
+mkdir -p $HOME/.config/nvim
 cp -r `pwd`/../.config/nvim/* $HOME/.config/nvim/
