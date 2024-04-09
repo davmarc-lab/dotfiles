@@ -1,0 +1,21 @@
+[2024-03-21 14:57:06.366] [info]  No state version found, assuming empty state.
+[2024-03-21 14:57:07.203] [info]  State version: 26
+[2024-03-21 14:57:24.529] [info]  Error: The name is not activatable
+[2024-03-21 14:57:24.606] [info]  Error: The name is not activatable
+[2024-03-21 14:57:24.607] [info]  Error: The name is not activatable
+[2024-03-21 14:57:24.619] [info]  Error: The name is not activatable
+[2024-03-21 14:57:24.623] [info]  Error: The name is not activatable
+[2024-03-21 14:57:24.640] [error] Error: Cannot start a HubConnection that is not in the 'Disconnected' state.
+[2024-03-21 14:57:24.860] [info]  Finished search indexing
+[2024-03-21 14:57:25.603] [info]  Finished search indexing
+[2024-03-21 14:57:43.417] [error] TypeError: Object has been destroyed
+    at WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:82374:36)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:82136:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/usr/lib/bitwarden/app.asar/main.js:82132:12)
+    at WindowMain.updateWindowState (/usr/lib/bitwarden/app.asar/main.js:82369:16)
+    at WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:82303:28)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:82136:71
+    at new Promise (<anonymous>)

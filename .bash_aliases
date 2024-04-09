@@ -47,7 +47,7 @@ alias twstop="sudo docker container stop myXampp"
 alias dkstart="sudo systemctl start docker"
 
 # stop docker service
-alias dkstop="twstop ; sudo systemctl stop docker.socket"
+alias dkstop="sudo systemctl stop docker.socket"
 
 # pacman update
 alias pac-update="sudo pacman -Syu ; echo \"--- Pacman packages updated ---\""
