@@ -12,6 +12,9 @@ alias va="cd ~/Documents/VisioneArtificiale/"
 # go to computer-vision and activate conda
 alias vac="va ; conda activate va"
 
+# go to rust studying
+alias rs="cd ~/Documents/rust/"
+
 # spotify-adblock
 alias adspotify="LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify"
 
