@@ -58,3 +58,213 @@
     at Generator.next (<anonymous>)
     at /usr/lib/bitwarden/app.asar/main.js:82136:71
     at new Promise (<anonymous>)
+[2024-04-16 13:50:10.636] [info]  State version: 26
+[2024-04-16 13:50:10.641] [info]  Migrator MinVersionMigrator (to version 3) should migrate: false - up
+[2024-04-16 13:50:10.641] [info]  Migrator RemoveEverBeenUnlockedMigrator (to version 4) should migrate: false - up
+[2024-04-16 13:50:10.642] [info]  Migrator AddKeyTypeToOrgKeysMigrator (to version 5) should migrate: false - up
+[2024-04-16 13:50:10.642] [info]  Migrator RemoveLegacyEtmKeyMigrator (to version 6) should migrate: false - up
+[2024-04-16 13:50:10.642] [info]  Migrator MoveBiometricAutoPromptToAccount (to version 7) should migrate: false - up
+[2024-04-16 13:50:10.642] [info]  Migrator MoveStateVersionMigrator (to version 8) should migrate: false - up
+[2024-04-16 13:50:10.643] [info]  Migrator MoveBrowserSettingsToGlobal (to version 9) should migrate: false - up
+[2024-04-16 13:50:10.643] [info]  Migrator EverHadUserKeyMigrator (to version 10) should migrate: false - up
+[2024-04-16 13:50:10.643] [info]  Migrator OrganizationKeyMigrator (to version 11) should migrate: false - up
+[2024-04-16 13:50:10.643] [info]  Migrator MoveEnvironmentStateToProviders (to version 12) should migrate: false - up
+[2024-04-16 13:50:10.643] [info]  Migrator ProviderKeyMigrator (to version 13) should migrate: false - up
+[2024-04-16 13:50:10.644] [info]  Migrator MoveBiometricClientKeyHalfToStateProviders (to version 14) should migrate: false - up
+[2024-04-16 13:50:10.644] [info]  Migrator FolderMigrator (to version 15) should migrate: false - up
+[2024-04-16 13:50:10.644] [info]  Migrator LastSyncMigrator (to version 16) should migrate: false - up
+[2024-04-16 13:50:10.644] [info]  Migrator EnablePasskeysMigrator (to version 17) should migrate: false - up
+[2024-04-16 13:50:10.644] [info]  Migrator AutofillSettingsKeyMigrator (to version 18) should migrate: false - up
+[2024-04-16 13:50:10.644] [info]  Migrator RequirePasswordOnStartMigrator (to version 19) should migrate: false - up
+[2024-04-16 13:50:10.644] [info]  Migrator PrivateKeyMigrator (to version 20) should migrate: false - up
+[2024-04-16 13:50:10.645] [info]  Migrator CollectionMigrator (to version 21) should migrate: false - up
+[2024-04-16 13:50:10.645] [info]  Migrator CollapsedGroupingsMigrator (to version 22) should migrate: false - up
+[2024-04-16 13:50:10.645] [info]  Migrator MoveBiometricPromptsToStateProviders (to version 23) should migrate: false - up
+[2024-04-16 13:50:10.645] [info]  Migrator SmOnboardingTasksMigrator (to version 24) should migrate: false - up
+[2024-04-16 13:50:10.645] [info]  Migrator ClearClipboardDelayMigrator (to version 25) should migrate: false - up
+[2024-04-16 13:50:10.645] [info]  Migrator RevertLastSyncMigrator (to version 26) should migrate: false - up
+[2024-04-16 13:50:10.645] [info]  Migrator BadgeSettingsMigrator (to version 27) should migrate: true - up
+[2024-04-16 13:50:10.646] [info]  Migrator BadgeSettingsMigrator (to version 27) migrated - up
+[2024-04-16 13:50:10.647] [info]  Setting stateVersion
+[2024-04-16 13:50:10.650] [info]  Migrator BadgeSettingsMigrator (to version 27) updated version - up
+[2024-04-16 13:50:10.650] [info]  Migrator MoveBiometricUnlockToStateProviders (to version 28) should migrate: true - up
+[2024-04-16 13:50:10.651] [info]  Setting ce564dca-e02e-43e3-9ff0-af4701555081
+[2024-04-16 13:50:10.654] [info]  Migrator MoveBiometricUnlockToStateProviders (to version 28) migrated - up
+[2024-04-16 13:50:10.654] [info]  Setting stateVersion
+[2024-04-16 13:50:10.656] [info]  Migrator MoveBiometricUnlockToStateProviders (to version 28) updated version - up
+[2024-04-16 13:50:10.656] [info]  Migrator UserNotificationSettingsKeyMigrator (to version 29) should migrate: true - up
+[2024-04-16 13:50:10.658] [info]  Migrator UserNotificationSettingsKeyMigrator (to version 29) migrated - up
+[2024-04-16 13:50:10.658] [info]  Setting stateVersion
+[2024-04-16 13:50:10.660] [info]  Migrator UserNotificationSettingsKeyMigrator (to version 29) updated version - up
+[2024-04-16 13:50:10.660] [info]  Migrator PolicyMigrator (to version 30) should migrate: true - up
+[2024-04-16 13:50:10.662] [info]  Setting user_ce564dca-e02e-43e3-9ff0-af4701555081_policies_policies
+[2024-04-16 13:50:10.664] [info]  Setting ce564dca-e02e-43e3-9ff0-af4701555081
+[2024-04-16 13:50:10.667] [info]  Migrator PolicyMigrator (to version 30) migrated - up
+[2024-04-16 13:50:10.667] [info]  Setting stateVersion
+[2024-04-16 13:50:10.672] [info]  Migrator PolicyMigrator (to version 30) updated version - up
+[2024-04-16 13:50:10.672] [info]  Migrator EnableContextMenuMigrator (to version 31) should migrate: true - up
+[2024-04-16 13:50:10.672] [info]  Migrator EnableContextMenuMigrator (to version 31) migrated - up
+[2024-04-16 13:50:10.673] [info]  Setting stateVersion
+[2024-04-16 13:50:10.675] [info]  Migrator EnableContextMenuMigrator (to version 31) updated version - up
+[2024-04-16 13:50:10.675] [info]  Migrator PreferredLanguageMigrator (to version 32) should migrate: true - up
+[2024-04-16 13:50:10.676] [info]  Migrator PreferredLanguageMigrator (to version 32) migrated - up
+[2024-04-16 13:50:10.676] [info]  Setting stateVersion
+[2024-04-16 13:50:10.678] [info]  Migrator PreferredLanguageMigrator (to version 32) updated version - up
+[2024-04-16 13:50:10.678] [info]  Migrator AppIdMigrator (to version 33) should migrate: true - up
+[2024-04-16 13:50:10.679] [info]  Setting global_applicationId_appId
+[2024-04-16 13:50:10.682] [info]  Setting appId
+[2024-04-16 13:50:10.684] [info]  Migrator AppIdMigrator (to version 33) migrated - up
+[2024-04-16 13:50:10.684] [info]  Setting stateVersion
+[2024-04-16 13:50:10.686] [info]  Migrator AppIdMigrator (to version 33) updated version - up
+[2024-04-16 13:50:10.686] [info]  Migrator DomainSettingsMigrator (to version 34) should migrate: true - up
+[2024-04-16 13:50:10.688] [info]  Setting user_ce564dca-e02e-43e3-9ff0-af4701555081_domainSettings_equivalentDomains
+[2024-04-16 13:50:10.690] [info]  Setting ce564dca-e02e-43e3-9ff0-af4701555081
+[2024-04-16 13:50:10.693] [info]  Migrator DomainSettingsMigrator (to version 34) migrated - up
+[2024-04-16 13:50:10.694] [info]  Setting stateVersion
+[2024-04-16 13:50:10.696] [info]  Migrator DomainSettingsMigrator (to version 34) updated version - up
+[2024-04-16 13:50:10.697] [info]  Migrator MoveThemeToStateProviderMigrator (to version 35) should migrate: true - up
+[2024-04-16 13:50:10.698] [info]  Setting global_theming_selection
+[2024-04-16 13:50:10.700] [info]  Setting global
+[2024-04-16 13:50:10.702] [info]  Migrator MoveThemeToStateProviderMigrator (to version 35) migrated - up
+[2024-04-16 13:50:10.702] [info]  Setting stateVersion
+[2024-04-16 13:50:10.705] [info]  Migrator MoveThemeToStateProviderMigrator (to version 35) updated version - up
+[2024-04-16 13:50:10.706] [info]  Migrator VaultSettingsKeyMigrator (to version 36) should migrate: true - up
+[2024-04-16 13:50:10.707] [info]  Migrator VaultSettingsKeyMigrator (to version 36) migrated - up
+[2024-04-16 13:50:10.707] [info]  Setting stateVersion
+[2024-04-16 13:50:10.709] [info]  Migrator VaultSettingsKeyMigrator (to version 36) updated version - up
+[2024-04-16 13:50:10.710] [info]  Migrator AvatarColorMigrator (to version 37) should migrate: true - up
+[2024-04-16 13:50:10.711] [info]  Migrator AvatarColorMigrator (to version 37) migrated - up
+[2024-04-16 13:50:10.711] [info]  Setting stateVersion
+[2024-04-16 13:50:10.714] [info]  Migrator AvatarColorMigrator (to version 37) updated version - up
+[2024-04-16 13:50:10.714] [info]  Migrator TokenServiceStateProviderMigrator (to version 38) should migrate: true - up
+[2024-04-16 13:50:10.715] [info]  Setting user_ce564dca-e02e-43e3-9ff0-af4701555081_token_accessToken
+[2024-04-16 13:50:10.718] [info]  Setting user_ce564dca-e02e-43e3-9ff0-af4701555081_token_refreshToken
+[2024-04-16 13:50:10.720] [info]  Setting ce564dca-e02e-43e3-9ff0-af4701555081
+[2024-04-16 13:50:10.722] [info]  Setting global_tokenDiskLocal_emailTwoFactorTokenRecord
+[2024-04-16 13:50:10.724] [info]  Setting global
+[2024-04-16 13:50:10.727] [info]  Migrator TokenServiceStateProviderMigrator (to version 38) migrated - up
+[2024-04-16 13:50:10.727] [info]  Setting stateVersion
+[2024-04-16 13:50:10.729] [info]  Migrator TokenServiceStateProviderMigrator (to version 38) updated version - up
+[2024-04-16 13:50:10.729] [info]  Migrator MoveBillingAccountProfileMigrator (to version 39) should migrate: true - up
+[2024-04-16 13:50:10.730] [info]  Setting user_ce564dca-e02e-43e3-9ff0-af4701555081_billing_accountProfile
+[2024-04-16 13:50:10.732] [info]  Setting ce564dca-e02e-43e3-9ff0-af4701555081
+[2024-04-16 13:50:10.734] [info]  Migrator MoveBillingAccountProfileMigrator (to version 39) migrated - up
+[2024-04-16 13:50:10.734] [info]  Setting stateVersion
+[2024-04-16 13:50:10.738] [info]  Migrator MoveBillingAccountProfileMigrator (to version 39) updated version - up
+[2024-04-16 13:50:10.738] [info]  Migrator OrganizationMigrator (to version 40) should migrate: true - up
+[2024-04-16 13:50:10.739] [info]  Setting user_ce564dca-e02e-43e3-9ff0-af4701555081_organizations_organizations
+[2024-04-16 13:50:10.742] [info]  Setting ce564dca-e02e-43e3-9ff0-af4701555081
+[2024-04-16 13:50:10.745] [info]  Migrator OrganizationMigrator (to version 40) migrated - up
+[2024-04-16 13:50:10.745] [info]  Setting stateVersion
+[2024-04-16 13:50:10.747] [info]  Migrator OrganizationMigrator (to version 40) updated version - up
+[2024-04-16 13:50:10.747] [info]  Migrator EventCollectionMigrator (to version 41) should migrate: true - up
+[2024-04-16 13:50:10.748] [info]  Migrator EventCollectionMigrator (to version 41) migrated - up
+[2024-04-16 13:50:10.748] [info]  Setting stateVersion
+[2024-04-16 13:50:10.750] [info]  Migrator EventCollectionMigrator (to version 41) updated version - up
+[2024-04-16 13:50:10.750] [info]  Migrator EnableFaviconMigrator (to version 42) should migrate: true - up
+[2024-04-16 13:50:10.751] [info]  Migrator EnableFaviconMigrator (to version 42) migrated - up
+[2024-04-16 13:50:10.751] [info]  Setting stateVersion
+[2024-04-16 13:50:10.754] [info]  Migrator EnableFaviconMigrator (to version 42) updated version - up
+[2024-04-16 13:50:10.754] [info]  Migrator AutoConfirmFingerPrintsMigrator (to version 43) should migrate: true - up
+[2024-04-16 13:50:10.755] [info]  Migrator AutoConfirmFingerPrintsMigrator (to version 43) migrated - up
+[2024-04-16 13:50:10.756] [info]  Setting stateVersion
+[2024-04-16 13:50:10.758] [info]  Migrator AutoConfirmFingerPrintsMigrator (to version 43) updated version - up
+[2024-04-16 13:50:10.758] [info]  Migrator UserDecryptionOptionsMigrator (to version 44) should migrate: true - up
+[2024-04-16 13:50:10.759] [info]  Setting user_ce564dca-e02e-43e3-9ff0-af4701555081_userDecryptionOptions_decryptionOptions
+[2024-04-16 13:50:10.761] [info]  Setting ce564dca-e02e-43e3-9ff0-af4701555081
+[2024-04-16 13:50:10.763] [info]  Migrator UserDecryptionOptionsMigrator (to version 44) migrated - up
+[2024-04-16 13:50:10.763] [info]  Setting stateVersion
+[2024-04-16 13:50:10.765] [info]  Migrator UserDecryptionOptionsMigrator (to version 44) updated version - up
+[2024-04-16 13:50:10.766] [info]  Migrator MergeEnvironmentState (to version 45) should migrate: true - up
+[2024-04-16 13:50:10.768] [info]  Setting user_ce564dca-e02e-43e3-9ff0-af4701555081_environment_environment
+[2024-04-16 13:50:10.771] [info]  Removing user_ce564dca-e02e-43e3-9ff0-af4701555081_environment_region
+[2024-04-16 13:50:10.773] [info]  Removing user_ce564dca-e02e-43e3-9ff0-af4701555081_environment_urls
+[2024-04-16 13:50:10.776] [info]  Setting global_environment_environment
+[2024-04-16 13:50:10.779] [info]  Removing global_environment_region
+[2024-04-16 13:50:10.782] [info]  Removing global_environment_urls
+[2024-04-16 13:50:10.784] [info]  Migrator MergeEnvironmentState (to version 45) migrated - up
+[2024-04-16 13:50:10.785] [info]  Setting stateVersion
+[2024-04-16 13:50:10.787] [info]  Migrator MergeEnvironmentState (to version 45) updated version - up
+[2024-04-16 13:50:10.787] [info]  Migrator DeleteBiometricPromptCancelledData (to version 46) should migrate: true - up
+[2024-04-16 13:50:10.789] [info]  Removing user_ce564dca-e02e-43e3-9ff0-af4701555081_biometricSettings_promptCancelled
+[2024-04-16 13:50:10.792] [info]  Migrator DeleteBiometricPromptCancelledData (to version 46) migrated - up
+[2024-04-16 13:50:10.792] [info]  Setting stateVersion
+[2024-04-16 13:50:10.794] [info]  Migrator DeleteBiometricPromptCancelledData (to version 46) updated version - up
+[2024-04-16 13:50:10.795] [info]  Migrator MoveDesktopSettingsMigrator (to version 47) should migrate: true - up
+[2024-04-16 13:50:10.796] [info]  Setting global_desktopSettings_window
+[2024-04-16 13:50:10.798] [info]  Setting global_desktopSettings_openAtLogin
+[2024-04-16 13:50:10.800] [info]  Setting global
+[2024-04-16 13:50:10.803] [info]  Migrator MoveDesktopSettingsMigrator (to version 47) migrated - up
+[2024-04-16 13:50:10.804] [info]  Setting stateVersion
+[2024-04-16 13:50:10.806] [info]  Migrator MoveDesktopSettingsMigrator (to version 47) updated version - up
+[2024-04-16 13:50:10.806] [info]  Migrator MoveDdgToStateProviderMigrator (to version 48) should migrate: true - up
+[2024-04-16 13:50:10.807] [info]  Migrator MoveDdgToStateProviderMigrator (to version 48) migrated - up
+[2024-04-16 13:50:10.807] [info]  Setting stateVersion
+[2024-04-16 13:50:10.810] [info]  Migrator MoveDdgToStateProviderMigrator (to version 48) updated version - up
+[2024-04-16 13:50:11.636] [info]  State version: 48
+[2024-04-16 13:50:11.650] [info]  Error: The name is not activatable
+[2024-04-16 13:50:11.655] [info]  Error: The name is not activatable
+[2024-04-16 13:50:11.663] [info]  Error: The name is not activatable
+[2024-04-16 13:50:11.663] [info]  Error: The name is not activatable
+[2024-04-16 13:50:11.679] [info]  Error: The name is not activatable
+[2024-04-16 13:50:11.688] [info]  Error: The name is not activatable
+[2024-04-16 13:50:11.692] [info]  Error: The name is not activatable
+[2024-04-16 13:50:11.721] [info]  Error: The name is not activatable
+[2024-04-16 13:50:11.722] [info]  Error: The name is not activatable
+[2024-04-16 13:50:11.722] [info]  Error: The name is not activatable
+[2024-04-16 13:50:11.730] [info]  Error: The name is not activatable
+[2024-04-16 13:50:11.731] [info]  Error: The name is not activatable
+[2024-04-16 13:50:11.732] [info]  Error: The name is not activatable
+[2024-04-16 13:50:11.737] [info]  Error: The name is not activatable
+[2024-04-16 13:50:11.738] [info]  Error: The name is not activatable
+[2024-04-16 13:50:11.743] [info]  Error: The name is not activatable
+[2024-04-16 13:50:11.747] [info]  Error: The name is not activatable
+[2024-04-16 13:50:11.763] [info]  Error: The name is not activatable
+[2024-04-16 13:50:11.766] [info]  Error: The name is not activatable
+[2024-04-16 13:50:11.779] [info]  Error: The name is not activatable
+[2024-04-16 13:50:11.790] [info]  Error: The name is not activatable
+[2024-04-16 13:50:12.714] [info]  Error: The name is not activatable
+[2024-04-16 13:50:12.717] [info]  Error: The name is not activatable
+[2024-04-16 13:50:12.721] [info]  Error: The name is not activatable
+[2024-04-16 13:50:14.690] [info]  Error: The name is not activatable
+[2024-04-16 13:50:14.694] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.400] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.401] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.408] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.408] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.421] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.425] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.437] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.440] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.441] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.619] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.622] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.809] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.814] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.816] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.825] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.828] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.830] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.833] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.834] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.834] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.843] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.861] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.863] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.908] [info]  Finished search indexing
+[2024-04-16 13:50:15.911] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.952] [info]  Error: The name is not activatable
+[2024-04-16 13:50:15.972] [error] Error: Failed to decode access token: JWT must have 3 parts
+[2024-04-16 13:50:18.798] [info]  Error: The name is not activatable
+[2024-04-16 13:50:21.669] [info]  Error: The name is not activatable
+[2024-04-16 13:50:26.714] [error] TypeError: Object has been destroyed
+    at WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:88849:36)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:88610:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/usr/lib/bitwarden/app.asar/main.js:88606:12)
+    at WindowMain.updateWindowState (/usr/lib/bitwarden/app.asar/main.js:88844:16)
+    at WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:88779:28)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:88610:71
+    at new Promise (<anonymous>)

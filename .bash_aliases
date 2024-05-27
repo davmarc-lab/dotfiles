@@ -64,3 +64,8 @@ alias full-update="sudo pacman -Syu ; yay -Syu ; echo \"--- Full system update c
 # alias for generating a formatting config for clangd, clangd mason formatter required
 alias clangd-format="~/.local/share/nvim/mason/bin/clang-format"
 
+# neovim for coding
+alias dvim='NVIM_APPNAME="dev-nvim" nvim'
+
+# neovim for markdown
+alias mvim='NVIM_APPNAME="mvim" nvim'

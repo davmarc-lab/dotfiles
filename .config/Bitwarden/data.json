@@ -1,50 +1,12 @@
 {
 	"global.vaultTimeout": -1,
 	"global.vaultTimeoutAction": "lock",
-	"stateVersion": 26,
+	"stateVersion": 48,
 	"global": {
-		"theme": "system",
-		"window": {
-			"width": 630,
-			"height": 1038,
-			"isMaximized": false,
-			"displayBounds": {
-				"x": 0,
-				"y": 0,
-				"width": 1920,
-				"height": 1080
-			},
-			"x": 1284,
-			"y": 36,
-			"zoomFactor": 1
-		},
-		"openAtLogin": false,
-		"installedVersion": "2024.3.0",
+		"installedVersion": "2024.4.0",
 		"rememberedEmail": "davidemarchetti01@gmail.com"
 	},
-	"global_environment_region": "US",
-	"global_environment_urls": {
-		"base": null,
-		"api": null,
-		"identity": null,
-		"icons": null,
-		"notifications": null,
-		"events": null,
-		"webVault": null,
-		"keyConnector": null
-	},
-	"appId": "242bf7bc-ec6f-48c6-8ec9-718e9f068e07",
-	"user_ce564dca-e02e-43e3-9ff0-af4701555081_environment_region": "US",
-	"user_ce564dca-e02e-43e3-9ff0-af4701555081_environment_urls": {
-		"base": null,
-		"api": null,
-		"identity": null,
-		"icons": null,
-		"notifications": null,
-		"events": null,
-		"webVault": null,
-		"keyConnector": null
-	},
+	"appId": null,
 	"authenticatedAccounts": [
 		"ce564dca-e02e-43e3-9ff0-af4701555081"
 	],
@@ -1451,12 +1413,8 @@
 			"sends": {
 				"encrypted": {}
 			},
-			"policies": {
-				"encrypted": {}
-			},
 			"passwordGenerationHistory": {},
-			"providers": {},
-			"organizations": {}
+			"providers": {}
 		},
 		"keys": {
 			"cryptoSymmetricKey": {},
@@ -1466,14 +1424,12 @@
 			"userId": "ce564dca-e02e-43e3-9ff0-af4701555081",
 			"name": "Davide",
 			"email": "davidemarchetti01@gmail.com",
-			"hasPremiumPersonally": false,
 			"kdfIterations": 100000,
 			"kdfMemory": null,
 			"kdfParallelism": null,
 			"kdfType": 0,
 			"keyHash": "yvXLhyYumlY8YnMgd2+Ih0v2CExvP74SeNzZOumCvHo=",
 			"emailVerified": true,
-			"hasPremiumFromOrganization": false,
 			"usesKeyConnector": false,
 			"convertAccountToKeyConnector": null,
 			"lastSync": "2024-03-21T13:57:24.651Z"
@@ -1490,23 +1446,23 @@
 					"trusted-device-encryption": true,
 					"fido2-vault-credentials": true,
 					"vault-onboarding": false,
-					"autofill-v2": true,
 					"browser-fileless-import": false,
 					"flexible-collections-v-1": false,
 					"bulk-collection-access": true,
-					"autofill-overlay": true,
 					"key-rotation-improvements": true,
 					"duo-redirect": true,
 					"flexible-collections-signup": true,
 					"flexible-collections-migration": true,
-					"AC-1607_present-user-offboarding-survey": true,
 					"PM-5766-automatic-tax": true,
-					"PM-5864-dollar-threshold": false
+					"PM-5864-dollar-threshold": false,
+					"AC-2101-update-trial-initiation-email": true,
+					"show-payment-method-warning-banners": false,
+					"unassigned-items-banner": true
 				},
-				"version": "2024.2.3",
-				"gitHash": "b3a6bf5a",
+				"version": "2024.4.0",
+				"gitHash": "26fb0814",
 				"server": {},
-				"utcDate": "2024-03-21T13:57:25.808Z",
+				"utcDate": "2024-04-16T11:50:15.615Z",
 				"environment": {
 					"cloudRegion": "US",
 					"vault": "https://vault.bitwarden.com",
@@ -1516,21 +1472,12 @@
 					"sso": "https://sso.bitwarden.com"
 				}
 			},
-			"avatarColor": null,
-			"settings": {
-				"equivalentDomains": []
-			}
+			"avatarColor": null
 		},
-		"tokens": {
-			"accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkJDMzZDMjE0REI0OEYyMzVCNzdEQTNGMTcyMEMxQTM1QTk2MkVBNDNSUzI1NiIsIng1dCI6InZEYkNGTnRJOGpXM2ZhUHhjZ3dhTmFsaTZrTSIsInR5cCI6ImF0K2p3dCJ9.eyJpc3MiOiJodHRwczovL2lkZW50aXR5LmJpdHdhcmRlbi5jb20iLCJuYmYiOjE3MTEwMjk0NjEsImlhdCI6MTcxMTAyOTQ2MSwiZXhwIjoxNzExMDMzMDYxLCJzY29wZSI6WyJhcGkiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsiQXBwbGljYXRpb24iXSwiY2xpZW50X2lkIjoiZGVza3RvcCIsInN1YiI6ImNlNTY0ZGNhLWUwMmUtNDNlMy05ZmYwLWFmNDcwMTU1NTA4MSIsImF1dGhfdGltZSI6MTcxMTAyOTQ2MCwiaWRwIjoiYml0d2FyZGVuIiwicHJlbWl1bSI6ZmFsc2UsImVtYWlsIjoiZGF2aWRlbWFyY2hldHRpMDFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInNzdGFtcCI6IlhaSFpTTzZGVEpTTFpMNldXWURFWkgzUFZNUVlFT1FQIiwibmFtZSI6IkRhdmlkZSIsImRldmljZSI6IjI0MmJmN2JjLWVjNmYtNDhjNi04ZWM5LTcxOGU5ZjA2OGUwNyIsImp0aSI6IjgwQjQzQTM3ODM4RjMzQjQ3N0ZCQzkwQTQ1QzM0NjAxIn0.RVJtsUTGgvOvcWoB77vGQL8mdIMMWf4bEhIrIGSnKjB4bJ7qY7u2IqpGG7dI3ZNqZBhDRxjTNYwazC15TLLM2xIddJUPvd4o2SMFU89OZuu1-TukbQjhaI-9tQR94NxmsLrY5duMkoBodvE_EuocTd7EPzipnOeeWqUp9Cg7f-lQVfecpGkpICvXHRrSpPFrJE7bRF-QMRY7T1rv-ohkCwP5qUQKHO85UjxvqU5F7Ck37tLoI10mgyPD6PNKXoFhiugnX1gkrTrh9HYttrvkzUBwrJ9T9SUxSvX0MuihZnjEFn_MD0Jq8kYc9fp2hpC8jkvIGVTUTSfPitdZAvxQ4_Sf13xnGbX4MWtxswlbPq7VZTKHCzSfM8Jb2bYFf7MzoAkdQwUHU9U4Nr2kqqhTIAnPVZ9ajUfK67DQeWE5QTqMshzxICNtMUsIZE6RRTdwMDUrO0bHYb2RHkOc58KovppP6MSztwA8cLd4kkDPI6yNduxKXMt3tXCetWkXFu1wjfkj0e5HUmXcz5L7KMXqiN9mNUZsoQ2CqrbpqjmUq92LXxycuDoNKdEDhl2ZeUC_eX2wmpno89FcB71MZxaLhN081B5pQAL4NmtfX4XJcM81riNxhtbcnvIIoZGMLRRNWC_d_rdBbpqa23Mh_JgBweqLgXhn3UCBBZKEkc2s6J4",
-			"refreshToken": "5B05BEB216CDFBE8395DC68A8044A3904548B8135338F513F56BF33C11E0000D-1"
-		},
-		"decryptionOptions": {
-			"hasMasterPassword": true
-		}
+		"tokens": {}
 	},
 	"accountActivity": {
-		"ce564dca-e02e-43e3-9ff0-af4701555081": 1711029454304
+		"ce564dca-e02e-43e3-9ff0-af4701555081": 1713268225863
 	},
 	"activeUserId": "ce564dca-e02e-43e3-9ff0-af4701555081",
 	"user_ce564dca-e02e-43e3-9ff0-af4701555081_crypto_everHadUserKey": true,
@@ -1569,5 +1516,63 @@
 			"revisionDate": "2022-11-08T21:01:39.3666667Z"
 		}
 	},
-	"user_ce564dca-e02e-43e3-9ff0-af4701555081_collection_collections": {}
+	"user_ce564dca-e02e-43e3-9ff0-af4701555081_collection_collections": {},
+	"user_ce564dca-e02e-43e3-9ff0-af4701555081_policies_policies": {},
+	"global_applicationId_appId": "242bf7bc-ec6f-48c6-8ec9-718e9f068e07",
+	"user_ce564dca-e02e-43e3-9ff0-af4701555081_domainSettings_equivalentDomains": [],
+	"global_theming_selection": "system",
+	"user_ce564dca-e02e-43e3-9ff0-af4701555081_token_accessToken": "2.No6StakCxvQfoPf24irgFg==|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",
+	"user_ce564dca-e02e-43e3-9ff0-af4701555081_token_refreshToken": null,
+	"global_tokenDiskLocal_emailTwoFactorTokenRecord": {},
+	"user_ce564dca-e02e-43e3-9ff0-af4701555081_billing_accountProfile": {
+		"hasPremiumPersonally": false,
+		"hasPremiumFromOrganization": false
+	},
+	"user_ce564dca-e02e-43e3-9ff0-af4701555081_organizations_organizations": {},
+	"user_ce564dca-e02e-43e3-9ff0-af4701555081_userDecryptionOptions_decryptionOptions": {
+		"hasMasterPassword": true
+	},
+	"user_ce564dca-e02e-43e3-9ff0-af4701555081_environment_environment": {
+		"region": "US",
+		"urls": {
+			"base": null,
+			"api": null,
+			"identity": null,
+			"icons": null,
+			"notifications": null,
+			"events": null,
+			"webVault": null,
+			"keyConnector": null
+		}
+	},
+	"global_environment_environment": {
+		"region": "US",
+		"urls": {
+			"base": null,
+			"api": null,
+			"identity": null,
+			"icons": null,
+			"notifications": null,
+			"events": null,
+			"webVault": null,
+			"keyConnector": null
+		}
+	},
+	"global_desktopSettings_window": {
+		"width": 950,
+		"height": 1038,
+		"isMaximized": false,
+		"displayBounds": {
+			"x": 0,
+			"y": 0,
+			"width": 1920,
+			"height": 1080
+		},
+		"x": 964,
+		"y": 36,
+		"zoomFactor": 1
+	},
+	"global_desktopSettings_openAtLogin": false,
+	"user_ce564dca-e02e-43e3-9ff0-af4701555081_token_refreshTokenMigratedToSecureStorage": true,
+	"global_biometricSettings_promptCancelled": null
 }

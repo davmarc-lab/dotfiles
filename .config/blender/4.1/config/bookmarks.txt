@@ -1,0 +1,3 @@
+[Bookmarks]
+[Recent]
+/home/mil2442/Documents/ComputerGraphics/CG-Project2/Project-2/src/resources/models/bean/
