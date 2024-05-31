@@ -41,10 +41,10 @@ alias inraptor="ssh davide.marchetti6\@studio.unibo.it@isi-raptor03.csr.unibo.it
 alias outraptor="ssh raptor"
 
 # start xampp docker image
-alias twstart="sudo docker container start myXampp"
+alias twstart="docker container start myXampp"
 
 # stop xampp docker image
-alias twstop="sudo docker container stop myXampp"
+alias twstop="docker container stop myXampp"
 
 # starts docker service
 alias dkstart="sudo systemctl start docker"

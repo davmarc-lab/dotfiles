@@ -1,8 +1,0 @@
-2024/05/21-16:19:23.654 d47d Reusing MANIFEST /home/mil2442/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2024/05/21-16:19:23.665 d47d Recovering log #5
-2024/05/21-16:19:23.687 d47d Level-0 table #8: started
-2024/05/21-16:19:23.707 d47d Level-0 table #8: 3098913 bytes OK
-2024/05/21-16:19:23.708 d47d Recovering log #8
-2024/05/21-16:19:23.709 d47d Reusing old log /home/mil2442/.config/discord/Local Storage/leveldb/000008.log 
-2024/05/21-16:19:23.711 d47d Delete type=2 #9
-2024/05/21-16:19:23.711 d47d Delete type=0 #5
