@@ -62,7 +62,7 @@
         }
       ],
       "w": 21,
-      "h": 938
+      "h": 1298
     },
     "right_sidebar": {
       "groups": [
@@ -72,14 +72,14 @@
         }
       ],
       "w": 21,
-      "h": 938
+      "h": 1298
     },
     "floating": [],
     "position": {
-      "x": 961,
+      "x": 3201,
       "y": 33,
-      "w": 950,
-      "h": 1038
+      "w": 1270,
+      "h": 1398
     },
     "autohide": true,
     "fullscreen": false,
@@ -110,7 +110,9 @@
   "input.devices": {
     "MSFT0001:00 04F3:31BE Touchpad:touchpad:4": {},
     "MSFT0001:00 04F3:31BE Mouse:mouse:4": {},
-    "Virtual core XTEST pointer:mouse:2": {}
+    "Virtual core XTEST pointer:mouse:2": {},
+    "Logitech G502 HERO Gaming Mouse:mouse:4": {},
+    "Logitech G502 HERO Gaming Mouse Keyboard:mouse:4": {}
   },
   "colors.current": "#003153",
   "colors.palette": {
@@ -431,7 +433,6 @@
   "ui.blink_layers": true,
   "ui.file_compat_warning_mild": true,
   "ui.file_compat_warning_severe": true,
-  "devbrush.last_used": "MSFT0001:00 04F3:31BE Touchpad",
   "colors.history": [
     "#ee3333",
     "#336699",

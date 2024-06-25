@@ -14,6 +14,7 @@ alias vac="va ; conda activate va"
 
 # go to rust studying
 alias rs="cd ~/Documents/rust/"
+alias re="export PATH=$PATH:~/.cargo/bin/ ; cd ~/Documents/rust-exercise/rustlings/exercises/"
 
 # spotify-adblock
 alias adspotify="LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify"

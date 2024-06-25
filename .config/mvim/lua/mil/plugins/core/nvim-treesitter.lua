@@ -5,7 +5,7 @@ return {
 		local configs = require("nvim-treesitter.configs")
 
 		configs.setup({
-			ensure_installed = { "markdown", "markdown_inline" },
+			ensure_installed = { "markdown", "markdown_inline", "latex" },
 			sync_install = true,
 			auto_install = true,
 			highlight = {

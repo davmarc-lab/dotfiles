@@ -1,3 +1,10 @@
-
 [Default Applications]
 inode/directory=polo-gtk.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-7T5YO2.desktop
+message/rfc822=userapp-Thunderbird-7T5YO2.desktop
+x-scheme-handler/mid=userapp-Thunderbird-7T5YO2.desktop
+image/png=qimgv.desktop
+
+[Added Associations]
+x-scheme-handler/mailto=userapp-Thunderbird-7T5YO2.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-7T5YO2.desktop;

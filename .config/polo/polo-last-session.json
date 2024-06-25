@@ -1,7 +1,7 @@
 {
   "session" : {
     "format-version" : 1,
-    "timestamp" : "1717073710",
+    "timestamp" : "1718869777",
     "user" : "mil2442",
     "layout" : 1,
     "pane_pos_top" : 651,
@@ -15,8 +15,8 @@
         "tabs" : [
           {
             "renamed" : false,
-            "name" : "2023",
-            "path" : "/home/mil2442/Documents/AlgebraExams/2023",
+            "name" : "mil2442",
+            "path" : "/home/mil2442",
             "locked_path" : "",
             "view" : 1,
             "show_hidden" : false,
