@@ -12,6 +12,8 @@
 # background image manager
 exec --no-startup-id nitrogen --restore
 
+exec_always --no-startup-id autotiling
+
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -209,8 +211,8 @@ set $sm HDMI-A-0
 
 # defines which workspace goes with one monitor
 workspace 1 output $fm
-workspace 2 output $fm
-workspace 3 output $sm
+workspace 2 output $sm
+workspace 3 output $fm
 workspace 4 output $fm
 workspace 5 output $fm
 workspace 6 output $fm
@@ -250,6 +252,9 @@ bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 
 ## Custon keybinds
 
+# Simple alt+tab feature
+bindsym Mod1+Tab workspace back_and_forth
+
 # Open File Manager polo
 bindsym $mod+t exec --no-startup-id polo-gtk
 
@@ -285,6 +290,8 @@ bindsym Shift+Print exec --no-startup-id flameshot gui
 
 # Sets the borders of the windwos hiding the top bar with the name
 for_window [class="^.*"] border pixel 3
+for_window [title="Lost In Space"] floating enable
+for_window [class="No Title Yet"] floating enable
 
 # Inner gaps are used betwenn all windows, outer gaps sum the inner gaps to the windows near limit
 gaps inner 3

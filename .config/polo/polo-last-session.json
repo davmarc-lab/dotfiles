@@ -1,7 +1,7 @@
 {
   "session" : {
     "format-version" : 1,
-    "timestamp" : "1718869777",
+    "timestamp" : "1723206946",
     "user" : "mil2442",
     "layout" : 1,
     "pane_pos_top" : 651,
@@ -15,8 +15,8 @@
         "tabs" : [
           {
             "renamed" : false,
-            "name" : "mil2442",
-            "path" : "/home/mil2442",
+            "name" : "spaceship",
+            "path" : "/home/mil2442/Documents/ComputerGraphics/CG-Project2/Project-2/CG-Project2/resources/models/spaceship",
             "locked_path" : "",
             "view" : 1,
             "show_hidden" : false,

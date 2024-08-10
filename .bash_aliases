@@ -24,6 +24,7 @@ alias poweroof=poweroff
 
 # go to ComputerGraphics
 alias cg="cd ~/Documents/ComputerGraphics/"
+
 alias cg2="cd ~/Documents/ComputerGraphics/CG-Project2/"
 
 # go to tecnologieWeb

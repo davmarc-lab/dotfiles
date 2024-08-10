@@ -39,7 +39,7 @@
   "ui.dark_theme_variant": true,
   "ui.rendered_tile_cache_size": 16384,
   "saving.default_format": "openraster",
-  "brushmanager.selected_brush": "Dieterle/Fan#1",
+  "brushmanager.selected_brush": "classic/brush",
   "brushmanager.selected_groups": [],
   "frame.color_rgba": [
     0.12,
@@ -62,24 +62,35 @@
         }
       ],
       "w": 21,
-      "h": 1298
+      "h": 938
     },
     "right_sidebar": {
       "groups": [
+        {
+          "tools": [
+            [
+              "MyPaintBrushGroupTool",
+              "Classic"
+            ]
+          ],
+          "active_page": 0,
+          "w": 235,
+          "h": 306
+        },
         {
           "tools": [],
           "active_page": -1
         }
       ],
-      "w": 21,
-      "h": 1298
+      "w": 235,
+      "h": 938
     },
     "floating": [],
     "position": {
-      "x": 3201,
+      "x": 961,
       "y": 33,
-      "w": 1270,
-      "h": 1398
+      "w": 950,
+      "h": 1038
     },
     "autohide": true,
     "fullscreen": false,
@@ -439,5 +450,6 @@
     "#44aa66",
     "#aa6633",
     "#003153"
-  ]
+  ],
+  "devbrush.last_used": "MSFT0001:00 04F3:31BE Touchpad"
 }
