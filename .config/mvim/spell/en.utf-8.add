@@ -17,3 +17,6 @@ deref
 whitespace
 whitespaces
 hasher
+backtrace
+Backtraces
+init

@@ -1,0 +1,31 @@
+<application>
+  <component name="VimJumpsSettings">
+    <project id="TestProject1-4a4897e7">
+      <jump line="0" column="0" filename="$USER_HOME$/RiderProjects/TestProject1/TestProject1/UnitTest1.cs" protocol="file" />
+    </project>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <localmarks>
+      <file name="$USER_HOME$/RiderProjects/TestProject1/TestProject1/UnitTest1.cs" timestamp="1725013308881">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Public/Bolt/Bolt/Bolt.vcxproj" timestamp="1725013010030">
+        <mark key="&quot;" line="2" column="4" />
+      </file>
+    </localmarks>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers />
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-offset encoding="base64" />
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">ZmFsc2U=</show-last>
+    </search>
+  </component>
+  <component name="VimVariables">
+    <vim-variables />
+  </component>
+</application>

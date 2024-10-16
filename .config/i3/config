@@ -12,7 +12,8 @@
 # background image manager
 exec --no-startup-id nitrogen --restore
 
-exec_always --no-startup-id autotiling
+# This thing causes some problems with some window movement and $mod+w command
+# exec_always --no-startup-id autotiling
 
 set $mod Mod4
 
@@ -237,7 +238,6 @@ exec_always --no-startup-id picom -f
 # eco status bar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh --forest
 
-
 ## Useful controls
 
 # brightness controls !!!NEVER TOUCH THIS AGAIN!!!
@@ -291,6 +291,7 @@ bindsym Shift+Print exec --no-startup-id flameshot gui
 # Sets the borders of the windwos hiding the top bar with the name
 for_window [class="^.*"] border pixel 3
 for_window [title="Lost In Space"] floating enable
+for_window [title="Bolt Engine"] floating enable
 for_window [class="No Title Yet"] floating enable
 
 # Inner gaps are used betwenn all windows, outer gaps sum the inner gaps to the windows near limit

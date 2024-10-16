@@ -2,10 +2,7 @@ return {
     "akinsho/toggleterm.nvim",
     config = function()
 		require("toggleterm").setup({
-			direction = "float",
-			float_opts = {
-				border = "curved",
-			},
+			direction = "horizontal",
 			winbar = {
 				enabled = false,
 				name_formatter = function(term)

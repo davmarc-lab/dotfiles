@@ -1,0 +1,11 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/Public/Bolt" value="true" />
+        <entry key="$USER_HOME$/Public/Bolt/.idea/.idea.Bolt" value="true" />
+        <entry key="$USER_HOME$/RiderProjects/TestProject1" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

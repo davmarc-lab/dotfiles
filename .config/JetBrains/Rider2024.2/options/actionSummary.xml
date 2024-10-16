@@ -1,0 +1,76 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Copy">
+      <i c="1" l="1725012448692" />
+    </e>
+    <e n="Back">
+      <i c="1" l="1725013302202" />
+    </e>
+    <e n="BuildSolutionAction">
+      <i c="3" l="1725013317248" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="2" l="1725013407206" />
+    </e>
+    <e n="Forward">
+      <i c="1" l="1725013303340" />
+    </e>
+    <e n="NewRiderProject">
+      <i c="1" l="1725013338035" />
+    </e>
+    <e n="RiderNewSolution">
+      <i c="2" l="1725013474614" />
+    </e>
+    <e n="RiderOpenSolution">
+      <i c="1" l="1725012213555" />
+    </e>
+    <e n="RiderProblemsViewToolsetContextPopupAction">
+      <i c="1" l="1725012245175" />
+    </e>
+    <e n="Run">
+      <i c="1" l="1725012441060" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="1" l="1725013393855" />
+    </e>
+    <e n="WelcomeScreen.Plugins">
+      <i c="1" l="1725013395529" />
+    </e>
+    <e n="com.intellij.ide.ReopenProjectAction">
+      <i c="1" l="1725013306256" />
+    </e>
+    <e n="com.intellij.ide.startup.importSettings.chooser.productChooser.ExpChooserAction">
+      <i c="1" l="1725012071517" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.AnActionWrapper">
+      <i c="1" l="1725012980377" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="2" l="1725013009991" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$5">
+      <i c="6" l="1725013060481" />
+    </e>
+    <e n="com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$AnCancelAction">
+      <i c="1" l="1725013461572" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.HideAction">
+      <i c="1" l="1725012232592" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="2" l="1725013027860" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="1" l="1725013472495" />
+    </e>
+    <e n="com.intellij.ui.dsl.builder.components.SegmentedButtonAction">
+      <i c="2" l="1725013185711" />
+    </e>
+    <e n="com.jetbrains.rider.intentions.gutterWrappers.BackendGutterMarkWrapper$getClickAction$1">
+      <i c="1" l="1725013226245" />
+    </e>
+    <e n="com.jetbrains.rider.problemsView.actions.RiderProblemsViewToolsetPopupAction">
+      <i c="1" l="1725012252988" />
+    </e>
+  </component>
+</application>

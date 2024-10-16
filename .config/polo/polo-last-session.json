@@ -1,11 +1,11 @@
 {
   "session" : {
     "format-version" : 1,
-    "timestamp" : "1723206946",
+    "timestamp" : "1725012194",
     "user" : "mil2442",
     "layout" : 1,
-    "pane_pos_top" : 651,
-    "pane_pos_bottom" : 651,
+    "pane_pos_top" : 749,
+    "pane_pos_bottom" : 749,
     "pane_pos_quad" : 972,
     "panes" : [
       {
@@ -15,8 +15,8 @@
         "tabs" : [
           {
             "renamed" : false,
-            "name" : "spaceship",
-            "path" : "/home/mil2442/Documents/ComputerGraphics/CG-Project2/Project-2/CG-Project2/resources/models/spaceship",
+            "name" : "Public",
+            "path" : "/home/mil2442/Public",
             "locked_path" : "",
             "view" : 1,
             "show_hidden" : false,
@@ -32,7 +32,7 @@
           {
             "renamed" : false,
             "name" : "mil2442",
-            "path" : "",
+            "path" : "/home/mil2442",
             "locked_path" : "",
             "view" : 1,
             "show_hidden" : false,
